@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    position: relative;
+}
+
+.logo1{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+}
+
+h2 {
+    padding-left: 168px;
+    padding-top: 40px;
+    margin-right: auto;
+}
+
+p{
+    margin-top:auto ;
+    color: #434852;
+}
+
+.message{
+    padding-left: 168px;
+    padding-top: auto;
+    margin-right: auto;
+    color: #434852;
+    display: block;
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    
+    word-break: break-all;
+}
+
+.container .left-container {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.container .left-container .safeLink{
+    margin-top: 10px;
+    padding-top: auto;
+    margin-right: auto;
+    color: #0b1294;
+    display: block;
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    
+    word-break: break-all;
+ 
+}
+
+.container .right-container {
+    align-items: center;
+    background: linear-gradient(180deg, #0b1294 0, #0940ac 70%, #00b9fc 80%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 580px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+.login-form {
+    color: #eceef1;
+    margin-right: auto;
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-left: 168px;
+    word-break: break-all;
+}
+
+.login-form input {
+    display: block;
+    width: 150%;
+    margin-bottom: 14px;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-form .forgotButton button{
+    background-color: initial;
+    border: 1px solid transparent !important;
+    color: #2741ff;
+    font-size: 15px;
+    margin-top: 16px;
+    padding-inline-start: 0cqb;
+    font-weight: 545;
+    
+}
+
+.login-form  .loginButton button {
+    width: 85%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #2741ff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.message2{
+    font-size: .88rem;
+    line-height: 1.38rem;
+    margin-bottom: 8px;
+}
+
+.login-form #signUplink{
+    background-color: initial;
+    border: 1px solid transparent !important;
+    color: #2741ff;
+    font-size: 15px;
+    padding-inline-start: 0cqb;
+    font-weight: 545;
+}
+
+.login-form .ButtonPrivacy{
+    background-color: initial;
+    border: 1px solid transparent !important;
+    color: #2741ff;
+    font-size: 15px;
+    padding-inline-start: 0cqb;
+    font-weight: 545;
+}
+
+.login-form .buttonCookie{
+    background-color: initial;
+    border: 1px solid transparent !important;
+    color: #2741ff;
+    font-size: 15px;
+    padding-inline-start: 0cqb;
+    margin-top: 20px;
+    font-weight: 545;
+}
+
+.login-form .sim{
+    color: #667085;
+}
+
+a{
+    text-decoration: none;
+    color:#0b1294;
+}
+
+
+
+.message2 {
+    color: #667085;
+    display: block;
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    word-break: break-all;
+}
+
+.imgs{
+    margin-top: 10px;
+    display: flex;
+
+}
+
+img{
+    margin-left: 10px;
+}
+.container .right-container::before {
+    background: url(/imgs/vector-right.7adaac4d.png) 100% 0 no-repeat;
+}
+
+.container .right-container::after{
+    background: url(/imgs/vector-left.b09f176d.png) 100% 0 no-repeat;
+}
+
+.container .right-container::before{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.container .right-container .infoSlider {
+    text-align: center;
+    position: relative;
+    width: 480px;
+    z-index: 1;
+}
+
+.container .right-container .infoSlider {
+    text-align: center;
+    position: relative;
+    width: 480px;
+    z-index: 1;
+}
+
+.container .right-container .infoSlider .slides{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex !important;
+    justify-content: center;
+    margin-right: 15%;
+    margin-bottom: 0;
+    margin-left: 15%;
+    padding-left: 0;
+    list-style: none;
+}
+
