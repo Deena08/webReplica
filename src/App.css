@@ -1,38 +1,170 @@
-.App {
-  text-align: center;
+.Container {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo1{
+  padding-top: 16px;
+  padding-left: 16px;
+  margin-right: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+h2 {
+  padding-left: 168px;
+  padding-top: 40px;
+  margin-right: auto;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.message{
+  padding-left: 168px;
+  color: #787f8d;
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.logincontainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: left;
+  padding-left: 168px;
+  line-height: 3;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.logincontainer input{
+  display: block;
+  width: 65%;
+  margin-bottom: 14px;
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logincontainer label{
+  margin-top:auto ;
+  font-weight: 500;
+  color: #6e7177;
+}
+
+.left-container .loginbutton button{
+  width: 165px;
+    margin-top: 20px;
+    height: 40px;
+    margin-left: 168px;
+    border: none;
+    background-color: #2741ff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.forgotButton button{
+  background-color: initial;
+  border: 1px solid transparent !important;
+  color: #2741ff;
+  font-size: 15px;
+  margin-top: 16px;
+  padding-inline-start: 0cqb;
+  font-weight: 545;
+  cursor: pointer;
+  margin-left: 168px;
+  
+}
+
+.left-container{
+  width: 60%;
+  background-color: #fff;
+}
+
+.right-container {
+  background: linear-gradient(180deg, #0b1294 0, #0940ac 70%, #00b9fc );
+  height: 100vh;
+  width: 40%;
+}
+
+.message2{
+  line-height: 50px;
+  padding-left: 168px;
+  color: #6e7177;
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+ #signUplink{
+  background-color: initial;
+  border: 1px solid transparent !important;
+  color: #2741ff;
+  font-size: 15px;
+  padding-inline-start: 0cqb;
+  cursor: pointer;
+
+}
+
+.ButtonPrivacy{
+  background-color: initial;
+  border: 1px solid transparent !important;
+  color: #2741ff;
+  font-size: 14px;
+
+  font-weight: 545;
+  margin-left: 160px;
+  cursor: pointer;
+}
+
+.ButtonCookie{
+  background-color: initial;
+  border: 1px solid transparent !important;
+  color: #2741ff;
+  font-size: 14px;
+  font-weight: 545;
+  cursor: pointer;
+  
+}
+
+.sim{
+  color: #747a87;
+}
+
+a
+{  
+  margin-left: 168px;
+  text-decoration: none;
+  font-size: 14px;
+  color:#0b1294;
+  cursor: pointer;
+}
+
+#link{
+  font-weight: 500;
+  color: #00b9fc;
+}
+img{
+  margin-left: 10px;
+}
+
+.iconsAll{
+  margin-top: 50px;
+  flex-direction: row;
+  display: flex;
+  
+}
+
+.right-container::before {
+  background: url(imgs/vector-right.7adaac4d.png) 100% 0 no-repeat;
+}
+
+.right-container::after{
+  background: url(imgs/vector-left.b09f176d.png) 100% 0 no-repeat;
+}
+
+.slides{
+  margin-left: 75px;
 }
